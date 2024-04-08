@@ -137,7 +137,7 @@ col4.metric(label="Цена", value=filtered_df['price'].median())
 #Модель
 st.header('Узнать рекомендуемую цену')
 model = xgb.XGBRegressor()
-model.load_model('C:/Users/nyuva/PycharmProjects/MRBEAST/venv/xgboost_model.json')
+model.load_model('xgboost_model.json')
 с1, с2, с3, с4, с5= st.columns(5)
 floor = с1.selectbox("На каком этаже:", select('''select distinct floor from cian order by floor'''))
 floors_count = с2.selectbox("Количество этажей:", select('''select distinct floors_count from cian order by floors_count'''))
