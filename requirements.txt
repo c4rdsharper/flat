@@ -1,0 +1,8 @@
+streamlit
+seaborn
+pandas
+matplotlib.pyplot
+sqlalchemy
+xgboost
+numpy
+matplotlib.ticker
