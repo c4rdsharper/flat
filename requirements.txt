@@ -5,3 +5,4 @@ matplotlib
 sqlalchemy
 xgboost
 numpy
+psycopg2-binary
