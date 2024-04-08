@@ -1,8 +1,7 @@
 streamlit
 seaborn
 pandas
-matplotlib.pyplot
+matplotlib
 sqlalchemy
 xgboost
 numpy
-matplotlib.ticker
