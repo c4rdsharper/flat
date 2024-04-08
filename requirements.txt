@@ -6,3 +6,4 @@ sqlalchemy
 xgboost
 numpy
 psycopg2-binary
+scikit-learn
